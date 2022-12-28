@@ -90,16 +90,22 @@ main{
 
 .nft-card .infos .tempo{
     display: flex;
-    color: var(--linha);
+    color: var(--azul-suave);
 }
 
 .nft-card .infos .preco::before{
-    content: url(/src/images/icon-ethereum.svg);
+    content: '';
+    background: url(/src/images/icon-ethereum.svg) no-repeat center;
+    height: 18px;
+    width: 15px;
     margin-right: 7px;
 }
 
 .nft-card .infos .tempo::before{
-    content: url(/src/images/icon-clock.svg);
+    content: '';
+    background: url(/src/images/icon-clock.svg) no-repeat center;
+    height: 18px;
+    width: 15px;
     margin-right: 7px;
 }
 
