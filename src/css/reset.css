@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul-suave: hsl(215, 51%, 70%);
+    --ciano: hsl(178, 100%, 50%);
+
+    --bg-color: hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --linha: hsl(215, 32%, 27%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+a:hover{
+    color: var(--ciano);
+}
